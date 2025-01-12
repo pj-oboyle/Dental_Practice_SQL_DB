@@ -137,11 +137,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-## Contributing
-Contributions are welcome! If you have suggestions for improvements, please fork the repository and submit a pull request.
-
----
-
 ## Contact
 For questions or feedback, please contact:
 - Name: pj-oboyle
