@@ -1,0 +1,27 @@
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore temporary files created by text editors
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Ignore SQL client configuration files
+*.cnf
+*.config
+*.ini
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore hidden files
+.*
+!.gitignore
+
+# Ignore IDE/project-specific files
+.idea/
+.vscode/
+*.iml
