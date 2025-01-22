@@ -130,6 +130,9 @@ This project is a fully designed SQL database for managing a dental practice. Th
 - **`Unpaid_Bills`**: Tracks overdue bills.
 - **`Weekly_Appointments`**: Lists appointments for the week.
 
+#### **Database Relational Schema**
+![Database Relational Schema](docs/relationalSchema.png)
+
 ---
 
 ## License
