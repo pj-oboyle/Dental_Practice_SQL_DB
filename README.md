@@ -64,6 +64,25 @@ This project is a fully designed SQL database for managing a dental practice. Th
 
 ---
 
+## Schema Overview
+
+### **Key Tables**
+- **`patients`**: Stores patient details.
+- **`appointments`**: Manages appointment records.
+- **`invoice`**: Tracks billing and payment statuses.
+- **`treatment_details`**: Stores treatment catalog.
+- **`payment_method`**: Tracks payments (cheque, card, cash).
+
+### **Views**
+- **`Open_Appointments`**: Displays available slots.
+- **`Unpaid_Bills`**: Tracks overdue bills.
+- **`Weekly_Appointments`**: Lists appointments for the week.
+
+#### **Database Relational Schema**
+![Database Relational Schema](docs/relationalSchema.png)
+
+---
+
 ## Installation
 
 ### Prerequisites
@@ -113,25 +132,6 @@ This project is a fully designed SQL database for managing a dental practice. Th
   ```sql
   UPDATE appointments SET status = 'cancelled' WHERE appointment_id = 101;
   ```
-
----
-
-## Schema Overview
-
-### **Key Tables**
-- **`patients`**: Stores patient details.
-- **`appointments`**: Manages appointment records.
-- **`invoice`**: Tracks billing and payment statuses.
-- **`treatment_details`**: Stores treatment catalog.
-- **`payment_method`**: Tracks payments (cheque, card, cash).
-
-### **Views**
-- **`Open_Appointments`**: Displays available slots.
-- **`Unpaid_Bills`**: Tracks overdue bills.
-- **`Weekly_Appointments`**: Lists appointments for the week.
-
-#### **Database Relational Schema**
-![Database Relational Schema](docs/relationalSchema.png)
 
 ---
 
